@@ -1,4 +1,4 @@
-package com.zhuolang.starryserver.entity;
+package com.wnf.entity;
 
 import java.util.Date;
 

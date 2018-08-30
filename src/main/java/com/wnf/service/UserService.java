@@ -1,6 +1,6 @@
-package com.zhuolang.starryserver.service;
+package com.wnf.service;
 
-import com.zhuolang.starryserver.entity.User;
+import com.wnf.entity.User;
 
 import java.util.List;
 

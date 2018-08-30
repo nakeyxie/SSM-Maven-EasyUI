@@ -1,4 +1,4 @@
-package com.zhuolang.starryserver.dto;
+package com.wnf.dto;
 /**
  * Created by wnf on 2018-7-28.
  */

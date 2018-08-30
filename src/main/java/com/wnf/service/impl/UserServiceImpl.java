@@ -1,8 +1,8 @@
-package com.zhuolang.starryserver.service.impl;
+package com.wnf.service.impl;
 
-import com.zhuolang.starryserver.dao.UserDao;
-import com.zhuolang.starryserver.entity.User;
-import com.zhuolang.starryserver.service.UserService;
+import com.wnf.dao.UserDao;
+import com.wnf.entity.User;
+import com.wnf.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import java.util.List;
  * Created by wunaifu on 2018/7/28.
  */
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
     //注入Dao实现类依赖
     //    @Resource

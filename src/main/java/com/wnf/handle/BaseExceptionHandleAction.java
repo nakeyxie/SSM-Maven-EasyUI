@@ -1,6 +1,6 @@
-package com.zhuolang.starryserver.handle;
+package com.wnf.handle;
 
-import com.zhuolang.starryserver.dto.ResultDto;
+import com.wnf.dto.ResultDto;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -30,7 +30,8 @@ public class BaseExceptionHandleAction {
     @ExceptionHandler
     @ResponseBody
     public ResultDto handleAndReturnData(Exception ex) {
-        System.out.println("很好奇有没有执行到这里**handleAndReturnData************************************************************");
+        System.out.println("*************************异常拦截，出错了*************************************");
+        ex.printStackTrace();
         return new ResultDto(500, "Error Exception===" + ex.getClass());
     }
 

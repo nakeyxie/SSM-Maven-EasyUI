@@ -1,6 +1,6 @@
-package com.zhuolang.starryserver.dao;
+package com.wnf.dao;
 
-import com.zhuolang.starryserver.entity.User;
+import com.wnf.entity.User;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

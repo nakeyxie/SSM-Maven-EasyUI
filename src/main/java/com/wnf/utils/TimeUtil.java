@@ -1,4 +1,4 @@
-package com.zhuolang.starryserver.utils;
+package com.wnf.utils;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;

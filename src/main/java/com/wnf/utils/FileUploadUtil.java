@@ -1,6 +1,5 @@
-package com.zhuolang.starryserver.utils;
+package com.wnf.utils;
 
-import com.zhuolang.starryserver.dto.ResultDto;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
